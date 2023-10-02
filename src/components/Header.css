@@ -1,0 +1,12 @@
+header {
+	background-color: rgb(19, 18, 18);
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	height: 8vh;
+	padding: 3px;
+}
+header img {
+	height: 6vh;
+	margin-right: 0.3rem;
+}
