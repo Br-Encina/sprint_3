@@ -5,12 +5,12 @@ function Inicio() {
 		<div className="inicioPage">
 			<h1>Inicio</h1>
 			<div className="buttonDiv">
-				<button id="button1">
-					<Link to="/login">Log In</Link>
-				</button>
-				<button id="button2">
-					<Link to="/signup">Sign up</Link>
-				</button>
+				<Link to="/login"><button id="button1">
+					Log In
+				</button></Link>
+				<Link to="/signup"><button id="button2">
+					Sign up
+				</button></Link>
 			</div>
 		</div>
 	);

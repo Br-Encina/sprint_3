@@ -3,9 +3,9 @@ function Header() {
 	return (
 		<header>
 			<img
-				src="https://i.ibb.co/mvKjwch/logo-Banco.png"
+				src="./src\assets\logo-completo.png"
 				alt="Logo banco"
-				width="140rem"
+			
 			/>
 		</header>
 	);

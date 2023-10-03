@@ -1,0 +1,67 @@
+.plastico{
+    background: rgb(106,165,254);
+    background: linear-gradient(0deg, rgba(106,165,254,1) 20%, rgba(51,96,175,1) 40%, rgba(19,63,134,1) 60%, rgba(37,25,115,1) 80%);
+    width: 25rem;
+    height: 15rem;
+    border-radius: 0.625rem;
+    padding: 0.5rem;
+    
+}
+
+.logo {
+    width: 18rem;
+    height: 10rem;
+
+}
+
+.plastico h2{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -11rem;
+    left: -4rem;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega sombra al texto */
+
+    
+}
+
+.plastico h1{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -8rem;
+    left: -0.4rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.plastico .fechas{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -10rem;
+    list-style: none;
+    left:-4rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.fecha-expiracion{
+    position: relative;
+    left:-2rem;
+     
+}
+
+.nombre{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -12rem;
+    list-style: none;
+    left:-7.8rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}

@@ -8,7 +8,7 @@ import Prestamos from "./homeBankingWindows/Prestamos";
 import Convertidor from "./homeBankingWindows/Convertidor";
 import Tarjetas from "./homeBankingWindows/TarjetaCredito";
 import Ayuda from "./homeBankingWindows/ayuda";
-
+import Tarjeta from "./homeBankingWindows/Tarjeta";
 function HomeBanking({ user, setUser }) {
 	const [page, setPage] = useState("cuentas");
 	const [show, setShow] = useState();
@@ -28,6 +28,8 @@ function HomeBanking({ user, setUser }) {
 				return <Tarjetas user={user} />;
 			case "ayuda":
 				return <Ayuda user={user} />;
+			case "tarjeta":
+				return <Tarjeta user={user} />;
 			default:
 				break;
 		}

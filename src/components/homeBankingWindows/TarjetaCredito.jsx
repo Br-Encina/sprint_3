@@ -1,6 +1,7 @@
-function Tarjetas() {
+import Tarjeta from "./Tarjeta";
+function Tarjetas({ user }) {
     return ( 
-        <h1>Tarjetas</h1>
+        <Tarjeta user={user}></Tarjeta>
      );
 }
 

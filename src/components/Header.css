@@ -1,5 +1,5 @@
 header {
-	background-color: rgb(19, 18, 18);
+	background-color: rgba(19, 18, 18, 0);
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
@@ -7,6 +7,7 @@ header {
 	padding: 3px;
 }
 header img {
-	height: 6vh;
+	width: 40vh ;
+	height: 8.8vh;
 	margin-right: 0.3rem;
 }
