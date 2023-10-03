@@ -28,8 +28,7 @@ function HomeBanking({ user, setUser }) {
 				return <Tarjetas user={user} />;
 			case "ayuda":
 				return <Ayuda user={user} />;
-			case "tarjeta":
-				return <Tarjeta user={user} />;
+			
 			default:
 				break;
 		}
