@@ -1,6 +1,8 @@
 import "./tarjeta.css"
 import React from "react";
+
 function Tarjeta({user}) {
+    
     return ( 
     <>
     <span className="plastico">
@@ -26,6 +28,7 @@ function Tarjeta({user}) {
 			
         
     </span>
+    
     </>
         );
 }

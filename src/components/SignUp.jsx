@@ -10,13 +10,16 @@ function SignUp({ setUser }) {
 		const email = data.get("email");
 		const password = data.get("password");
 		const confirmPassword = data.get("confirmPassword");
+		var balance = data.get("balance");
+		var limite = data.get("limite");
 		if (password === confirmPassword) {
 			const userData = {
 				name: name,
 				lastName: lastName,
 				email: email,
 				password: password,
-				balance: 10000,
+				balance: balance,
+				limite: limite,
 			};
 			if (window.localStorage.getItem(userData.email) !== null) {
 				alert("El mail ya pertenece a una cuenta");
@@ -32,6 +35,8 @@ function SignUp({ setUser }) {
 		} else {
 			alert("Las contraseñas deben ser iguales");
 		}
+
+		
 	};
 	return (
 		<div className="signUpPage">
@@ -50,6 +55,10 @@ function SignUp({ setUser }) {
 					name="confirmPassword"
 					placeholder="Confirmar contraseña"
 				/>
+
+				<input type="number" name="balance" value={10000} hidden/>
+				<input type="number" name="limite" value={25000} hidden/>
+
 				<button>Crear</button>
 			</form>
 		</div>

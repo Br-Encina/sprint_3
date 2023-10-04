@@ -1,5 +1,4 @@
 import "./homeBankingWindows.css";
-import logo from "../../assets/logo.png";
 function Cuentas({ user }) {
 	return (
 		<div className="cuentaPage">
